@@ -1,0 +1,54 @@
+{
+  "name": "promiseftp",
+  "version": "0.0.0",
+  "description": "Promise-based FTP server.",
+  "homepage": "",
+  "author": {
+    "name": "Tyler Stewart",
+    "email": "tylers490@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "promise",
+    "ftp",
+    "server"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "6.9.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "del": "^2.0.2",
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.14.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-mocha": "^4.5.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "isparta": "^4.0.0",
+    "jsftp": "^1.5.4"
+  },
+  "eslintConfig": {
+    "extends": "xo-space"
+  },
+  "repository": "stewarttylerr/promiseftp",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "when": "^3.7.7"
+  }
+}
