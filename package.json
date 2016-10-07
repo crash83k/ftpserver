@@ -1,6 +1,6 @@
 {
-  "name": "promiseftp",
-  "version": "0.0.0",
+  "name": "ftpserver",
+  "version": "0.0.1",
   "description": "Promise-based FTP server.",
   "homepage": "",
   "author": {
@@ -42,7 +42,7 @@
   "eslintConfig": {
     "extends": "xo-space"
   },
-  "repository": "stewarttylerr/promiseftp",
+  "repository": "stewarttylerr/ftpserver",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
